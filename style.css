@@ -1,0 +1,203 @@
+ * {
+
+     margin: 0px;
+     padding: 0px;
+
+ }
+
+
+ .home {
+     width: 100%;
+     height: 4000px; ; 
+     background-image: url("i3.jpg");
+     background-size: 100%;
+     background-repeat: no-repeat;
+ }
+
+ .nav {
+     background-color: rgba(104, 14, 129, 0.5);
+     overflow: auto;
+     height: 300px;
+
+ }
+
+ .home .nav ul {
+
+     list-style-type: none;
+
+ }
+
+ .home .nav ul a {
+     text-decoration: none;
+     font-size: 100px;
+     color: rgb(247, 239, 239);
+     font-style: oblique;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     text-decoration: underline;
+
+
+ }
+
+ .home .nav ul li {
+     display: inline;
+     float: right;
+     margin: 60px;
+     padding: 60px;
+     transition: 2s;
+ }
+
+ .home .caption {
+
+     text-align-last: center;
+     margin-top: 400px;
+     transition: 2s;
+
+ }
+
+ .home .caption img {
+     width: 25%;
+     height: 25%;
+     transition: 2s;
+ }
+ .home .caption img:hover{
+
+transform: rotate(360deg) scale(1.5,1.5);
+transition: all 1s;
+
+ }
+
+ .home .caption h1 {
+     font-size: 200px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-style: unset;
+     color: rgb(150, 100, 7);
+     margin-top: 40px;
+     transition: 2s;
+ }
+
+ .home .caption button {
+
+     font-size: 150px;
+     font-style: oblique;
+     border-radius: 100px;
+     background-color: rgba(235, 234, 238, 0.5);
+     margin-top: 50px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     width: 900px;
+     height: 200px;
+     border: 10px rgb(184, 37, 37) solid;
+     outline: none;
+     transition: 2s;
+ }
+
+ .home .nav ul a:hover {
+
+     background-color: red;
+     border-radius: 20px;
+     color: black;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-weight: bold;
+
+ }
+ .profile {
+
+    width: 1500px;
+    height: 1500px;
+    background-image: url(i2.jpg);
+    background-size: 100% 100%;
+    margin: 60px auto;
+    position: relative;
+    overflow: hidden;
+
+
+}
+
+.profile .caption1 {
+
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: all 2s;
+    background-color: rgba(0, 0, 0, .6);
+    position: absolute;
+    top: 100%;
+    left: 100%;
+
+
+
+}
+
+.profile:hover .caption1 {
+
+    top: 0%;
+    left: 0%;
+    transform: rotate(360deg);
+}
+
+.profile .caption1 h1 {
+
+    padding: 60px;
+    font-size: 100px;
+    font-style: oblique;
+    color: rgba(193, 224, 220, 0.5);
+    text-decoration: underline black;
+}
+
+.profile .caption1 p {
+    text-transform: capitalize;
+    font-size: 100px;
+    font-weight: 600px;
+    font-style: oblique;
+    letter-spacing: 3px;
+    color: rgba(127, 255, .2);
+    padding: 50px;
+}
+
+.profile .caption1 .button1 {
+    width: 70%;
+    height: 120px;
+    border: 5px solid black;
+    font: 100px oblique bold;
+    border-radius: 50px;
+    margin: 200px;
+    background-color: rgba(0, 0, 0, .5);
+    color: rgb(179, 158, 130);
+    outline: none;
+
+}
+
+
+.h3 {
+    text-align: center;
+    position: relative;
+    font: 200px oblique bold;
+    color: blue;
+
+}
+
+.h3::before {
+    content: "";
+    width: 40%;
+    height: 5px;
+    background-color: red;
+    position: absolute;
+    left: 0px;
+    top: 50%;
+
+
+}
+
+.h3::after {
+    content: "";
+    width: 40%;
+    height: 5px;
+    background-color: rgb(255, 0, 0 );
+    position: absolute;
+    right: 0px;
+    bottom: 50%;
+}
+.foot{
+
+background-color:rgba(0, 0, 0, .9)
+
+}
